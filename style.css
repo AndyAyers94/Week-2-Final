@@ -1,0 +1,312 @@
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+span {
+  color: #6415ff;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+input {
+  padding-left: 32px;
+  font-size: large;
+}
+
+.container {
+  padding: 116px 0;
+}
+
+/*NAVIGATION BAR*/
+
+
+nav {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 45px;
+  height: 45px;
+}
+
+.nav__header {
+  margin-inline-start: 0;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: x-large;
+  color: rgb(36 62 99);
+}
+
+.nav__links {
+  margin-inline-end: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__link {
+  padding: 0 24px;
+  text-decoration: none;
+  color: rgb(36 62 99);
+  font-weight: 600;
+}
+
+button {
+  background-color: #6415ff;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  border-style: none;
+}
+
+
+/* LANDING LEFT */
+
+.landing__page--container {
+  padding: 100px 0;
+  display: flex;
+}
+
+.landing__left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+h1 {
+  font-size: 48px;
+  color: #243e63;
+}
+
+.landing__left--top-para {
+  font-size: 18px;
+  margin: 48px 0;
+  line-height: 1.5;
+}
+
+.landing__left--text-box {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing__page--text-box {
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(164, 168, 173);
+  width: 100%;
+  height: 64px;
+}
+
+.landing__page--btn {
+  height: 60px;
+  width: 200px;
+  position: absolute;
+  transform: translateX(278px);
+}
+
+.landing__left--customers {
+  margin-top: 48px;
+}
+
+.landing__page--bottom-para {
+  color: rgba(130, 132, 160, 0.924);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  opacity: 0.5;
+}
+
+.landing__left--photo {
+  max-width: 100%;
+  padding-right: 32px;
+  margin-top: 16px;
+  opacity: 0.5;
+}
+
+
+/* LANDING RIGHT */
+
+
+.landing__right {
+  width: 60%;
+}
+
+.landing__right--img {
+  width: 100%;
+  padding-left: 32px;
+}
+
+
+/* FEATURES */
+
+
+.features__header {
+  display: flex;
+  flex-direction: column;
+  color: #243e63;
+}
+
+.features__title {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.features__sub-title {
+  font-size: 64px;
+}
+
+.features__description {
+  font-size: 18px;
+  padding: 32px;
+  color: #243e6389;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 120px;
+}
+
+.service {
+  display: flex;
+  width: calc(100%/3);
+  padding: 32px;
+}
+
+.service__description {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+.service__description--title {
+  margin: 0;
+  font-size: 24px;
+  color: #243e63;
+  line-height: 1.5;
+}
+
+.service__description--para {
+  font-size: 16px;
+  margin-top: 8px;
+  color: #243e6389;
+  line-height: 1.75;
+}
+
+/* QUALITY WORK */
+
+.quality__work--container {
+  display: flex;
+}
+
+.left__column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left__column--title {
+  margin-left: 0;
+  font-size: 16px;
+}
+
+.left__column--sub-title {
+  font-size: 64px;
+  color: #243e63;
+  margin: 24px 0;
+}
+
+.left__column--para{
+  font-size: 18px;
+  color: #243e6389;
+  line-height: 1.5;
+}
+
+.left__column--btn {
+  margin-left: 0;
+  margin-top: 24px;
+  height: 50px;
+  width: 25%;
+}
+
+.right__column {
+  width: 50%;
+}
+
+.right-column__img {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: .25;
+  border-color: rgb(226, 232, 240);
+}
+
+/* STEPS */
+
+.steps__container {
+  display: flex;
+}
+
+.right__column--container {
+  display: flex;
+  align-items: center;
+}
+
+.right-column__img--laptop {
+  width: 100%;
+}
+
+.steps__title {
+  font-size: 16px;
+}
+
+.steps__sub-title {
+  font-size: 64px;
+  margin: 24px 0;
+  color: #243e63;
+}
+
+.steps__left--column {
+  margin-left: 40px;
+}
+
+.step {
+  list-style: none;
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.steps__numbered {
+  margin: 0;
+  color: #243e6389;
+  font-size: 36px;
+}
+
+.list__description {
+  margin: 0 0 0 16px;
+}
+
+.list__title {
+  font-size: 24px;
+  color: #243e63;
+}
+
+.list__para {
+  margin-top: 8px;
+}
