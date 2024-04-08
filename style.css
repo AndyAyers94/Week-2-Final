@@ -24,10 +24,6 @@ input {
   padding: 116px 0;
 }
 
-li {
-  list-style: none;
-}
-
 /*NAVIGATION BAR*/
 
 nav {
@@ -631,7 +627,8 @@ h1 {
   text-align: center;
 }
 
-li {
+.solo__link {
+  list-style: none;
   line-height: 2.5;
   font-weight: 400;
   text-align: center;
